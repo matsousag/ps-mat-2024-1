@@ -24,3 +24,4 @@ model Car {
   selling_date            DateTime?  //Data de venda
   selling_price           Decimal?   //Preço venda
 }
+
