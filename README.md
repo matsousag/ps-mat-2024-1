@@ -13,4 +13,4 @@ npm install primsa --save-dev
 #Inicialização do prima
 npx prisma init --datasource-provider sqlite
 
-#Executar uma migrate dev --name create-cars
+#Executar uma npx prisma migrate dev --name create-cars
