@@ -33,3 +33,4 @@ model User {
   is_admin          Boolean     @default(false)
 }
 
+

@@ -23,6 +23,10 @@ app.use("/", indexRouter);
  * ROTAS DA API
 ************************************************/
 
+//Middleware que protege os ratos com autenticação
+import auth from './middleware/auth'
+app.use(auth)
+
 import carRoute from './routes/car.js'
 app.use('/cars', carRoute)
 
